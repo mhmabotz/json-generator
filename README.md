@@ -26,5 +26,7 @@ Repeat the content, the content will same of your field in json page, make new f
 The contributor 100% is was [Mhmabotz](https://github.com/mhmabotz) visit their youtube to see the proccess to create this file
 Youtube channel was posted soon
 
+The Other Contributor is [CyNetics](https://github.com/CyrusCore) visit their github
+
 
 
