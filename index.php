@@ -1,6 +1,6 @@
 <?php
 //request file json from file and input on variable
-$data = file_get_contents('data/config.json');
+$data = file_get_contents('config.json');
 //decode the json query
 $content = json_decode($data, true);
 
@@ -17,7 +17,7 @@ $field = $content["field"];
 
     <!--CONFIG-->
     <title>Hello World!</title>
-    <link rel="stylesheet" href="css/all-min.css">
+    <link rel="stylesheet" href="all-min.css">
     <link rel="shortcut icon" href="img/favicon.png">
 </head>
 <body>
