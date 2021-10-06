@@ -1,0 +1,78 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration:none;
+    color : white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: black;
+}
+header {
+    display : flex;
+    background-color: #124323;
+}
+header .logo {
+    font-weight: 200;
+    font-size: 50px;
+    padding : 10px 10px;
+    margin-left:10px;
+    background-color: #124323;
+}
+header .nav {
+    border:1px solid cyan;
+}
+header .nav ul {
+    display:flex;
+    text-align:center;
+    align-items:center;
+}
+header .nav ul li {
+    padding:10px 10px;
+    padding-top:25%;
+    font-size:40px;
+    font-weight:100;
+}
+.content {
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    padding-top:50px;
+}
+.card-content {
+    border:2px solid white;
+    display: inline-block;
+    padding:50px 650px;
+}
+.title-name {
+    background-color:#124323;
+    float:none;
+    padding:10px 10px;
+}
+.card-head {
+    display:inline-block;
+    border:2px solid white;
+}
+.btn {
+    background-color:black;
+    border:none;
+    border:2px solid white;
+    padding:10px 80px;
+    font-weight:100;
+    font-size:1rem;
+    cursor:pointer;
+}
+.btn:hover {
+    background-color : #1f8d45;
+    border: 2px solid #124323;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.footer {
+    background-color : #1f8d45;
+    border: 2px solid #124323;
+    text-align:center;
+    padding:10px 0;
+    font-size:20px;
+}
